@@ -1,0 +1,17 @@
+[package]
+name = "mythos-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+
+[[bin]]
+name = "mythos"
+path = "src/main.rs"
+
+[dependencies]
+mythos-core = { path = "../mythos-core" }
+clap.workspace = true
+anyhow.workspace = true
+
+[dev-dependencies]
+toml.workspace = true

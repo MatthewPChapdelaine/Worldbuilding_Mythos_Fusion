@@ -1,0 +1,52 @@
+[project]
+name = "Loporia and Koretoretos"
+version = "0.1.0"
+summary = "A setting about rival realms whose rulers reshape human identity through memetic influence."
+
+[rules]
+resonance_threshold = 40
+transformation_threshold = 100
+contest_margin = 15
+
+[[realms]]
+id = "loporia"
+name = "Loporia"
+ruler_id = "metatron"
+doctrine = "Order, symmetry, sacred geometry, hierarchy, records, and immutable law."
+virtues = ["structural mastery", "reliable records", "coordinated design"]
+risks = ["bureaucracy", "rigidity", "erasure of individual exceptions"]
+
+[[realms]]
+id = "koretoretos"
+name = "Koretoretos"
+ruler_id = "azazel"
+doctrine = "Craft, forbidden knowledge, self-determination, and defiance of imposed authority."
+virtues = ["inventiveness", "practical mastery", "personal agency"]
+risks = ["volatile change", "isolation", "fragmentation"]
+
+[[spirits]]
+id = "metatron"
+name = "Metatron"
+realm_id = "loporia"
+epithets = ["the Scribe", "the Chancellor of Heaven"]
+domains = ["sacred geometry", "cosmic order", "records"]
+
+[[spirits]]
+id = "azazel"
+name = "Azazel"
+realm_id = "koretoretos"
+epithets = ["the Exile", "the Forge-Bearer"]
+domains = ["craft", "metallurgy", "forbidden knowledge"]
+
+[[people]]
+id = "the-artisan"
+name = "The Artisan"
+origin = "A human maker caught between the two realms."
+resilience = 20
+
+[[myths]]
+id = "the-border-of-two-fires"
+title = "The Border of Two Fires"
+summary = "A placeholder for the foundational myth explaining the tension between ordered design and autonomous craft."
+themes = ["creation", "opposition", "balance"]
+source_notes = ["Original setting premise; details intentionally left open."]

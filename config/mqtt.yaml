@@ -1,0 +1,11 @@
+broker:
+  host: 127.0.0.1
+  port: 1883
+  tls: false
+  keepalive_seconds: 2
+
+qos:
+  pose: 0
+  status: 1
+  lease: 1
+  fault: 2

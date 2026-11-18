@@ -1,0 +1,13 @@
+nodes:
+  foyer_01:
+    lease_seconds: 2
+    relay_topic: spirit/e_stop/foyer_01
+    packet_topic: spirit/pose/foyer_01
+  kitchen_02:
+    lease_seconds: 2
+    relay_topic: spirit/e_stop/kitchen_02
+    packet_topic: spirit/pose/kitchen_02
+  desk_03:
+    lease_seconds: 2
+    relay_topic: spirit/e_stop/desk_03
+    packet_topic: spirit/pose/desk_03

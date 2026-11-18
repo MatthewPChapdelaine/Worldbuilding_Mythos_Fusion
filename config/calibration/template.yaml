@@ -1,0 +1,9 @@
+node: CHANGE_ME
+joint:
+  target_name: CHANGE_ME
+  pwm_center_us: 1500
+  pwm_min_us: 500
+  pwm_max_us: 2500
+  normalized_min: -1.0
+  normalized_max: 1.0
+  invert: false

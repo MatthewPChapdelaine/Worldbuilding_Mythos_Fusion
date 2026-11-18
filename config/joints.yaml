@@ -1,0 +1,13 @@
+joints:
+  head_yaw:
+    min: -0.75
+    max: 0.75
+    slew_per_second: 0.6
+  head_pitch:
+    min: -0.60
+    max: 0.60
+    slew_per_second: 0.6
+  jaw:
+    min: 0.0
+    max: 0.50
+    slew_per_second: 0.8

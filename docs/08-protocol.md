@@ -25,13 +25,23 @@ and a schema version.
   "v": 1,
   "seq": 123,
   "lease": "kitchen-02",
-  "expires_ms": 189,
+  "node": "kitchen-02",
+  "expires_ms": 500,
   "joints": {
     "head_yaw": 0.10,
     "head_pitch": -0.05
   }
 }
 ```
+
+`node` is the absolute target node ID. `lease` is the possession token and must
+match the daemon-issued lease for `node`.
+
+`expires_ms` is a relative packet lifetime from 1 to 500 ms. The node converts
+it to an absolute `expires_at_ms` deadline using its own `millis()` clock.
+The binary packet also carries `protocol_version`, `node_id`, `lease_id`,
+monotonic sequence, and an absolute monotonic expiry. Firmware clocks shall not
+use wall-clock or broker timestamps.
 
 ## Validation rules
 

@@ -10,3 +10,9 @@ Initial implementation targets Python 3.12 with:
 - Lease and heartbeat management
 - Pose interpolation and slew limiting
 - Prometheus-compatible metrics
+
+## Vertical-slice status
+
+The current implementation provides packet construction and validation helpers.
+It also exposes a bounded, local pose loop, but does not claim live OSC or MQTT
+actuation until transport dependencies are added and lease handoff is tested.

@@ -6,9 +6,11 @@ Canonical targets use normalized or SI units:
 
 ```json
 {
-  "sequence": 123,
-  "lease_id": "kitchen-02",
-  "expires_at_ms": 189,
+  "v": 1,
+  "seq": 123,
+  "lease": "kitchen-02",
+  "node_id": "kitchen-02",
+  "expires_ms": 500,
   "joints": {
     "head_yaw": 0.10,
     "head_pitch": -0.05,

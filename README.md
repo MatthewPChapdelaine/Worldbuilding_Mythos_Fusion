@@ -1,9 +1,14 @@
 # Distributed Animatronic Android Network
 
-This repository contains the implementation-ready design package for a life-size,
+This repository contains a safety-led design package and executable protocol
+safety slice for a life-size,
 3D-printed maid-robot network. One central digital identity controls multiple
 physical nodes, while each node performs only the actuators and sensors required
 for its station.
+
+It also contains a separate Rust worldbuilding toolkit under
+`projects/loporia-koretoretos/`. Its influence and lore model is fictional
+narrative software; it does not control actuators or assign possession leases.
 
 This is a **human-scale, motorized, electrical system**. It is not a toy.
 Read [Safety](docs/00-safety.md) before buying parts or energizing hardware.

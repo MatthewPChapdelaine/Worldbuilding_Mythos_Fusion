@@ -6,6 +6,8 @@
 
 VRChat/UdonSharp maintains the visual pose, gaze, and animation state. It emits
 normalized values only; it never sends PWM values or physical node addresses.
+It is an optional animation source, not a safety authority: the standalone
+daemon can enter sleep mode without VRChat connectivity.
 
 ### Spirit daemon
 
